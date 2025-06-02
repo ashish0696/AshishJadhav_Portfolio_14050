@@ -1,0 +1,45 @@
+/* slideshow.css */
+:root {
+    --primary-color: #2563eb;
+    --secondary-color: #1e40af;
+    --text-color: #1f2937;
+    --bg-color: #ffffff;
+    --accent-color: #dbeafe;
+    --section-padding: 5rem 2rem;
+}
+
+/* Reset some defaults */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Slideshow container */
+#slideshow-container {
+    margin-top: 60px;
+  position: relative;
+  width: 90%;
+  max-width: 1300px;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  background-color: #ffffff;
+}
+
+
+
+
+/* Image styling */
+#tal {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 20px;
+  transition: opacity 1s ease-in-out;
+}
